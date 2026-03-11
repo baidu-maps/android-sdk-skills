@@ -63,7 +63,7 @@ An Android empty project template generator that creates a standard Android mini
 ## Directory Structure
 
 ```
-android-skills/
+android-sdk-skills/
 ├── README.md                 # Chinese README
 ├── README_EN.md              # This file (English)
 ├── CHANGELOG.md              # Changelog
@@ -85,15 +85,15 @@ android-skills/
 
 ```bash
 git clone <repository-url>
-cd android-skills
+cd android-sdk-skills
 ```
 
 ### 2. Download from Release (Optional)
 
-You can also download the `android-skills.zip` attachment from the Release page, then extract and use it:
+You can also download the `android-sdk-skills.zip` attachment from the Release page, then extract and use it:
 
 ```bash
-unzip android-skills.zip
+unzip android-sdk-skills.zip
 cd skills
 ```
 
@@ -117,11 +117,11 @@ Link or copy the `baidu-map-android-sdk`, `android-build`, and `android-empty-pr
 - Skills directory is typically: `~/.cursor/skills/`
 - Register via symlink (recommended):
   ```bash
-  ln -sfn "$(pwd)/skills/baidu-map-android-sdk" ~/.cursor/skills/baidu-map-android-sdk
-  ln -sfn "$(pwd)/skills/android-build" ~/.cursor/skills/android-build
-  ln -sfn "$(pwd)/skills/android-empty-project" ~/.cursor/skills/android-empty-project
+  ln -sfn "$(pwd)/skills/baidu-map-android-sdk" ~/.cursor/skills-cursor/baidu-map-android-sdk
+  ln -sfn "$(pwd)/skills/android-build" ~/.cursor/skills-cursor/android-build
+  ln -sfn "$(pwd)/skills/android-empty-project" ~/.cursor/skills-cursor/android-empty-project
   ```
-- Or directly copy the folders under `skills/` to `~/.cursor/skills/`.
+- Or directly copy the folders under `skills/` to `~/.cursor/skills-cursor/`.
 
 ### 4. Use in Conversations
 

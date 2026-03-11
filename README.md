@@ -63,7 +63,7 @@ Android 空工程模板生成器，可从零创建标准的 Android 最小可运
 ## 目录结构
 
 ```
-android-skills/
+android-sdk-skills/
 ├── README.md                 # 本文件（中文）
 ├── README_EN.md              # English README（待生成）
 ├── CHANGELOG.md              # 变更日志（待生成）
@@ -85,15 +85,15 @@ android-skills/
 
 ```bash
 git clone <本仓库地址>
-cd android-skills
+cd android-sdk-skills
 ```
 
 ### 2. 从 Release 下载（可选）
 
-你也可以直接从 Release 下载附件 `android-skills.zip`，然后解压使用：
+你也可以直接从 Release 下载附件 `android-sdk-skills.zip`，然后解压使用：
 
 ```bash
-unzip android-skills.zip
+unzip android-sdk-skills.zip
 cd skills
 ```
 
@@ -114,14 +114,14 @@ cd skills
 
 **Cursor**
 
-- Skills 目录一般为：`~/.cursor/skills/`
+- Skills 目录一般为：`~/.cursor/skills-cursor/`
 - 注册（软链，推荐）：
   ```bash
-  ln -sfn "$(pwd)/skills/baidu-map-android-sdk" ~/.cursor/skills/baidu-map-android-sdk
-  ln -sfn "$(pwd)/skills/android-build" ~/.cursor/skills/android-build
-  ln -sfn "$(pwd)/skills/android-empty-project" ~/.cursor/skills/android-empty-project
+  ln -sfn "$(pwd)/skills/baidu-map-android-sdk" ~/.cursor/skills-cursor/baidu-map-android-sdk
+  ln -sfn "$(pwd)/skills/android-build" ~/.cursor/skills-cursor/android-build
+  ln -sfn "$(pwd)/skills/android-empty-project" ~/.cursor-cursor/skills/android-empty-project
   ```
-- 或直接把 `skills/` 下的文件夹复制到 `~/.cursor/skills/` 下。
+- 或直接把 `skills/` 下的文件夹复制到 `~/.cursor/skills-cursor/` 下。
 
 ### 4. 在对话中使用
 
